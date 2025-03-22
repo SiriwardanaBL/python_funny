@@ -1,0 +1,120 @@
+### 1. Prime Number in Range
+Write a function that takes two integers, `start` and `end`, and returns a list of all prime numbers in that range.
+
+```python
+def prime_numbers(start, end):
+    # Your code here
+
+print(prime_numbers(10, 50))  # Example output: [11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]
+```
+
+---
+
+### 2. Reverse a String Without Using `[::-1]`
+Write a function to reverse a given string without using slicing (`[::-1]`).
+
+```python
+def reverse_string(s):
+    # Your code here
+
+print(reverse_string("Python"))  # Output: "nohtyP"
+```
+
+---
+
+### 3. Count Vowels and Consonants
+Write a function that takes a string and counts the number of vowels and consonants. Ignore spaces and special characters.
+
+```python
+def count_vowels_consonants(s):
+    # Your code here
+
+print(count_vowels_consonants("Hello World!"))  # Output: (3, 7)
+```
+
+---
+
+### 4. Find the Second Largest Number
+Write a function to find the second largest number in a list without using built-in sorting.
+
+```python
+def second_largest(numbers):
+    # Your code here
+
+print(second_largest([12, 35, 1, 10, 34, 1]))  # Output: 34
+```
+
+---
+
+### 5. Fibonacci Using Recursion
+Write a recursive function to find the `n`th Fibonacci number.
+
+```python
+def fibonacci(n):
+    # Your code here
+
+print(fibonacci(6))  # Output: 8
+```
+
+---
+
+### 6. Anagram Check
+Write a function to check if two strings are anagrams (contain the same characters in different order).
+
+```python
+def is_anagram(s1, s2):
+    # Your code here
+
+print(is_anagram("listen", "silent"))  # Output: True
+print(is_anagram("hello", "world"))    # Output: False
+```
+
+---
+
+### 7. Remove Duplicates from List
+Write a function to remove duplicate elements from a list while maintaining the original order.
+
+```python
+def remove_duplicates(lst):
+    # Your code here
+
+print(remove_duplicates([1, 2, 3, 1, 2, 4, 5]))  # Output: [1, 2, 3, 4, 5]
+```
+
+---
+
+### 8. Find Missing Number in a List
+You have a list of numbers from `1` to `n` with one missing. Write a function to find the missing number.
+
+```python
+def find_missing_number(lst, n):
+    # Your code here
+
+print(find_missing_number([1, 2, 4, 5, 6], 6))  # Output: 3
+```
+
+---
+
+### 9. Count Character Frequency
+Write a function that takes a string and returns a dictionary with character frequencies.
+
+```python
+def char_frequency(s):
+    # Your code here
+
+print(char_frequency("hello"))  # Output: {'h': 1, 'e': 1, 'l': 2, 'o': 1}
+```
+
+---
+
+### 10. Binary Search
+Implement binary search to find a target number in a sorted list.
+
+```python
+def binary_search(arr, target):
+    # Your code here
+
+print(binary_search([1, 3, 5, 7, 9, 11], 5))  # Output: 2 (index of 5)
+print(binary_search([1, 3, 5, 7, 9, 11], 8))  # Output: -1 (not found)
+```
+
